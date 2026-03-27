@@ -24,7 +24,7 @@ title: センサー一覧
 | | <span style="color:#808080b3">姿勢（attitude / 回転ベクトル）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> |
 | | <span style="color:#808080b3">ゲーム用姿勢（地磁気非依存）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">×</span> |
 | | コンパス方位 | ○ | ○ | ○ | × |
-| <span style="color:#808080b3">**歩行・活動系**</span> | 歩数（累積） | ○ | ○ | ○ | ○ |
+| **歩行・活動系** | 歩数（累積） | ○ | ○ | ○ | ○ |
 | | <span style="color:#808080b3">歩行検出（一歩ごと）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">×</span> |
 | | <span style="color:#808080b3">歩行 cadence / pace</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> |
 | | <span style="color:#808080b3">階数（昇降）</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> |
@@ -46,7 +46,7 @@ title: センサー一覧
 | | <span style="color:#808080b3">GNSS Raw Measurements（生の衛星計測）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">×</span> |
 | | <span style="color:#808080b3">GNSS Antenna Info</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">×</span> |
 | | <span style="color:#808080b3">UWB 近距離測位</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> |
-| <span style="color:#808080b3">**カメラ・映像系**</span> | <span style="color:#808080b3">カメラ（前面・背面）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> |
+| **カメラ・映像系** | <span style="color:#808080b3">カメラ（前面・背面）</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">×</span> |
 | | <span style="color:#808080b3">TrueDepth 深度（前面）</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">×</span> | <span style="color:#808080b3">△</span> | <span style="color:#808080b3">×</span> |
 | | LiDAR 深度（背面） | × | × | ○ | × |
 | <span style="color:#808080b3">**音声・通信系**</span> | <span style="color:#808080b3">マイク</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> | <span style="color:#808080b3">○</span> |
