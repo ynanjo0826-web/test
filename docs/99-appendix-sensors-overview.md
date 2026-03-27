@@ -14,55 +14,55 @@ title: センサー一覧
 | 種別 | センサー / データ | Android | Android BG | iOS | iOS BG |
 |---|---|:---:|:---:|:---:|:---:|
 | **動作・姿勢系** | 加速度（3軸） | ○ | ○ | ○ | × |
-| | <span style="color:gray">加速度（未補正）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">加速度（未補正）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | ジャイロスコープ（3軸） | ○ | ○ | ○ | × |
-| | <span style="color:gray">ジャイロスコープ（未補正）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">ジャイロスコープ（未補正）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | 磁気センサー（3軸） | ○ | ○ | ○ | × |
-| | <span style="color:gray">磁気センサー（未補正）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">磁気センサー（未補正）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | 重力センサー | ○ | ○ | ○ | × |
 | | 線形加速度（重力除去） | ○ | ○ | ○ | × |
-| | <span style="color:gray">姿勢（attitude / 回転ベクトル）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">ゲーム用姿勢（地磁気非依存）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">姿勢（attitude / 回転ベクトル）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">ゲーム用姿勢（地磁気非依存）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | コンパス方位 | ○ | ○ | ○ | × |
-| <span style="color:gray">**歩行・活動系**</span> | 歩数（累積） | ○ | ○ | ○ | ○ |
-| | <span style="color:gray">歩行検出（一歩ごと）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">歩行 cadence / pace</span> | <span style="color:gray">△</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">階数（昇降）</span> | <span style="color:gray">△</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">オドメータ（移動距離）</span> | <span style="color:gray">△</span> | <span style="color:gray">○</span> | <span style="color:gray">○ (iOS 17.0+)</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">Significant Motion（大きな動きの検出）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">Motion Detect / Stationary Detect</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">Off-body Detect（端末が身体から離れた検知）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> |
+| <span style="color:#666">**歩行・活動系**</span> | 歩数（累積） | ○ | ○ | ○ | ○ |
+| | <span style="color:#666">歩行検出（一歩ごと）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">歩行 cadence / pace</span> | <span style="color:#666">△</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">階数（昇降）</span> | <span style="color:#666">△</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">オドメータ（移動距離）</span> | <span style="color:#666">△</span> | <span style="color:#666">○</span> | <span style="color:#666">○ (iOS 17.0+)</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">Significant Motion（大きな動きの検出）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">Motion Detect / Stationary Detect</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">Off-body Detect（端末が身体から離れた検知）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> |
 | **環境センサー** | 気圧 | △ | ○ | ○ | × |
-| | <span style="color:gray">相対高度</span> | <span style="color:gray">△</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">絶対高度</span> | <span style="color:gray">△</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">相対高度</span> | <span style="color:#666">△</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">絶対高度</span> | <span style="color:#666">△</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | 照度（周囲の明るさ） | ○ | ○ | × | × |
 | | 近接センサー | ○ | ○ | ○ | × |
 | | 周囲温度 | △ | ○ | × | × |
 | | 相対湿度 | △ | ○ | × | × |
 | **位置・測位系** | GPS / GNSS（緯度経度・高度・速度・進行方向） | ○ | ○ | ○ | ○ |
-| | <span style="color:gray">Wi-Fi 測位</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">Bluetooth / BLE 測位（ビーコン）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">基地局測位</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">GNSS Raw Measurements（生の衛星計測）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">GNSS Antenna Info</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">UWB 近距離測位</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| <span style="color:gray">**カメラ・映像系**</span> | <span style="color:gray">カメラ（前面・背面）</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">TrueDepth 深度（前面）</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| | <span style="color:#666">Wi-Fi 測位</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">Bluetooth / BLE 測位（ビーコン）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">基地局測位</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">GNSS Raw Measurements（生の衛星計測）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">GNSS Antenna Info</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">UWB 近距離測位</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| <span style="color:#666">**カメラ・映像系**</span> | <span style="color:#666">カメラ（前面・背面）</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">TrueDepth 深度（前面）</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 | | LiDAR 深度（背面） | × | × | ○ | × |
-| <span style="color:gray">**音声・通信系**</span> | <span style="color:gray">マイク</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">Wi-Fi 情報（SSID・電波強度・周辺 AP）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">Bluetooth 周辺デバイス情報</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">NFC</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| <span style="color:gray">**生体・健康系**</span> | <span style="color:gray">心拍センサー</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">生体認証（指紋 / 顔認証）</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">歩数・活動量（ペドメーター）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| <span style="color:gray">**デバイス状態系**</span> | <span style="color:gray">バッテリー（残量・充電状態・温度）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">ネットワーク状態（Wi-Fi / 4G / 5G 等）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">画面状態（オン/オフ・輝度）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">音量・サイレントモード</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> |
-| | <span style="color:gray">ヘッドトラッキング（対応ヘッドホン）</span> | <span style="color:gray">○ (API 33+)</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> |
-| | <span style="color:gray">ヒンジ角（折りたたみ端末）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">×</span> | <span style="color:gray">×</span> |
-| | <span style="color:gray">6DoF Pose（位置 + 姿勢の 6 自由度）</span> | <span style="color:gray">○</span> | <span style="color:gray">○</span> | <span style="color:gray">△</span> | <span style="color:gray">×</span> |
+| <span style="color:#666">**音声・通信系**</span> | <span style="color:#666">マイク</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">Wi-Fi 情報（SSID・電波強度・周辺 AP）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">Bluetooth 周辺デバイス情報</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">NFC</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| <span style="color:#666">**生体・健康系**</span> | <span style="color:#666">心拍センサー</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">生体認証（指紋 / 顔認証）</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">歩数・活動量（ペドメーター）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| <span style="color:#666">**デバイス状態系**</span> | <span style="color:#666">バッテリー（残量・充電状態・温度）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">ネットワーク状態（Wi-Fi / 4G / 5G 等）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">画面状態（オン/オフ・輝度）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">音量・サイレントモード</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> |
+| | <span style="color:#666">ヘッドトラッキング（対応ヘッドホン）</span> | <span style="color:#666">○ (API 33+)</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> |
+| | <span style="color:#666">ヒンジ角（折りたたみ端末）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">×</span> | <span style="color:#666">×</span> |
+| | <span style="color:#666">6DoF Pose（位置 + 姿勢の 6 自由度）</span> | <span style="color:#666">○</span> | <span style="color:#666">○</span> | <span style="color:#666">△</span> | <span style="color:#666">×</span> |
 
 ---
 
